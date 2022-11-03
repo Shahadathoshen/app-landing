@@ -1,0 +1,158 @@
+
+@media  (max-width: 600px) {
+    
+    .col-1 { 
+        width: 8.33%;
+        float: left;
+    }
+    .col-s-2 {
+            width: 16.66%;
+            float: left;   
+    }
+    .col-s-3 {
+        width: 25%;
+        float: left;
+    }
+    .col-s-4 {
+        width: 33.33%;
+        float: left;
+    }
+    .col-s-5{
+        width: 41.66%;
+        float: left;
+    }
+    .col-s-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-s-7 {
+        width: 58.33%;
+        float: left;
+    }
+    .col-s-8 { 
+        width: 66.66%;
+        float: left;
+    }
+    .col-s-9 {
+        width: 75%;
+        float: left;}
+    .col-s-10 {
+        width: 83.33%;
+        float: left;
+    }
+    .col-s-11 {
+        width: 91.66%;
+        float: left;
+    }
+    .col-s-12 {
+        width: 100%;
+        float: left;
+    }
+    .header{
+        margin-bottom: -340px;
+    }
+    .nav ul{
+        position: fixed;
+        top: 60px;
+        left: 200%;
+        width: 70%;
+    }
+    .menu-part li{
+        clear: both;
+        line-height: 30px;
+        background: wheat;
+        display: block;
+        padding: 10px;
+        transition: all 0.1s;
+    }
+    .menu-part li:hover{
+        background: rgb(90, 62, 62);
+    }
+    #check:checked~ul{
+        left: -5px;
+    }
+    .chechbtn{
+        display:block;
+    }
+    .logo-part{
+        text-align: center;
+    }
+    .menu-part ul{
+        text-align: center;
+    }
+    .menu-part li a{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .group-btn button{
+        text-align: center;
+        max-width: 40%;
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .marketing1-box-part{
+        margin-top: -115px;
+    }
+    .services-box{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .one {
+        position: relative;
+        left: 0px;
+        top: 10px;
+      }
+      .two {
+        position: relative;
+        top: 22px;
+        left: 0px;
+      }
+      .three {
+        position: relative;
+        left: 0;
+        top: 29px;
+      }
+      .four {
+        position: relative;
+        left: 0;
+        top: 40px;
+      }
+   
+    .writing-part h1{
+        font-size: 30px;
+        width: 100%;
+        margin-top: 100px;
+    }
+   .marketing2-imag img{
+    max-width: 98%;
+   }
+   .app-box{
+    height: 200px;
+
+   }
+   .app-box h3{
+        font-size: 22px;
+   }
+   .app-box li{
+    text-align: center;
+   }
+   .app-box li a{
+    font-size: 15px;
+   }
+    .contact-writing-part p{
+        width: 80%;
+        margin: auto; 
+    }
+    .copywrite p{
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+       
+    }
+
+  }
+
+
+
+

@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container1{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.col-1 { 
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+        width: 16.66%;
+        float: left;   
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 { 
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+.header{
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: -247px;
+}
+#check{
+    display:none;
+}
+.chechbtn{
+    display:none;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 10px;
+    color: #ededed;
+    margin-top: -50px;
+}
+.checkbtn i{
+   font-size:25px ;
+   
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    background-color: #47577c;
+    z-index: 1;
+}
+.logo-part{
+    text-align: left;
+    padding: 13px 50px;
+}
+
+.menu-part ul{
+    margin: 10px;
+    text-align: right;
+}
+.menu-part li{
+    display: inline-block;
+    padding: 10px;
+}
+.menu-part li a {
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+  }
+.menu-part li a:hover{
+    background: rgba(148, 133, 133,0.5)
+}
+.writing-part{
+    text-align: center;
+    color: white;
+}
+.writing-part h1{
+  font-size: 40px;
+  line-height: 40px;
+  width: 40%;
+  padding: 142px 0 32px;
+  margin: auto;
+  font-weight: bold;
+}
+.writing-part p{
+
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 30px;
+}
+
+.group-btn{
+    padding: 48px 2px;
+}
+
+.group-btn button{
+    padding: 6px 28px;
+    margin: 1px 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+}
+#services{
+    background: url(../img/bg2.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 399px 0 150px;
+}
+.services-box-part{
+
+}
+.services-box {
+    background: #f0f0f0;
+    box-shadow: 0 0 5px #949bac6c;
+  }
+  .services-box img {
+    width: 57px;
+    height: 70px;
+    margin-top: 26px;
+  }
+
+  .services-box h3 {
+    font-size: 28px;
+    text-transform: capitalize;
+    color: blue;
+    font-weight: normal;
+    padding: 10px 0;
+    line-height: 25px;
+  }
+  .services-box p {
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    line-height: 20px;
+  }
+  .services-box button {
+    font-size: 20px;
+    background: bisque;
+    padding: 6px 20px;
+    margin: 45px 0;
+    color: rgba(53, 26, 26, 0.692);
+    font-weight: bold;
+  }
+.one{
+    position: relative;
+    left: -37px;
+    top: -47px;
+}
+.two{
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+.three{
+    position: relative;
+    left: -76px;
+    top: 0px;
+}
+.four{
+    position: relative;
+    left: -30px;
+    top: 73px;
+}
+.marketing1-witing-part{
+    padding: 153px 30px;
+    text-align: right;
+    color: #545e70;
+}
+.marketing1-witing-part h2{
+
+    font-size: 34px;
+    font-weight: unset;
+    line-height: 34px;
+    padding: 20px 0;
+}
+.marketing1-witing-part p{
+    
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.marketing1-witing-part button{
+
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #33d2fd;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+}
+.marketing1-box-part{
+
+    margin: 75px 0px;
+}
+.marketing1-box {
+    padding: 39px 16px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 2px #ededed;
+    margin: 10px;
+  }
+.marketing1-box img{
+
+    margin: auto 10px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.marketing1-box h2{
+    color: #545e70;
+    font-size: 20px;
+}
+#marketing2{
+    background-size: cover;
+    background-color: #fafafc;
+    padding-top: 80px;
+}
+.marketing2-imag{
+  max-width: 100%;
+  height: auto;
+}
+.marketing2-writing-part {
+
+    padding: 50px 0;
+    color: #233148;
+}
+.marketing2-writing-part h2 {
+
+    font-size: 29px;
+    line-height: 30px;
+    color: #233148;
+}
+.marketing2-writing-part ul{
+    list-style: none;
+    padding: 10px 0;
+}
+.marketing2-writing-part  li{
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 23px;
+    color: #233148;
+    margin: 0px;
+}
+.marketing2-writing-part p{
+
+    font-size: 19px;
+    line-height: 30px;
+    width: 81%;
+    padding: 10px 0;
+}
+.listicon1{
+    position: relative;
+    top: -1px;
+    left: -19px;
+}
+.listicon2{
+    position: relative;
+    top: 4px;
+    left: 0;
+}
+#marketing3{
+    padding: 80px 0;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+}
+.marketing3-img {
+    text-align: center;
+}
+
+.marketing3-writing h2{
+    color: #47577c;
+    font-size: 34px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 133px;
+}
+.marketing3-writing p{
+
+    font-size: 19px;
+    width: 80%;
+    line-height: 30px;
+    color: white;
+    padding: 40px 0;
+}
+.group-img {
+    padding: 0px 20px;
+    max-width: 40%;
+}
+#app{
+    background-color: #fafafc;
+}
+.app-button button{
+   background: #f95178;  
+   padding: 10px 47px;
+   font-size: 20px;
+   text-transform: uppercase;
+   color: white;
+   border-radius: 5px;
+   position: relative;
+   top: -25px;
+}
+.app-group{
+    width: 90%;
+    margin: auto;
+    padding: 90px 0;
+    text-align: left;
+}
+.app-box{
+    margin: 0 auto;
+    width: 25%;
+}
+.app-box h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-bottom: 26px;
+    color: #647295;
+}
+.app-box ul{
+    list-style: none;
+}
+.app-box li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 33px;
+    color: black;
+}
+.app-box li a:hover{
+    text-decoration: underline;
+    color: #535353;
+}
+#contact{
+    text-align: center;
+    background-color: #fafafc;
+}
+.contact-writing-part{
+
+    padding-top: 90px;
+}
+.contact-writing-part h2{
+
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: initial;
+    padding: 41px 0 20px;
+    line-height: 35px;
+}
+.contact-writing-part p{
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    line-height: 27px;
+    padding-bottom: 57px;
+}
+.contact-box-part{
+
+    padding-bottom: 53px;
+}
+.text{
+    padding: 11px 20px;
+    width: 40%;
+    margin: 5px;
+    outline: 1px solid #b6c2f3;
+    background: #f6f7fb;
+}
+.submit{
+    padding: 7px 58px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #33d2fd;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+}
+#footer{
+
+    background-color: #233148;
+    padding: 20px 0;
+}
+.copywrite p{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+.icon a i{
+    color: white;
+    padding: 10px;
+    font-size: 32px;
+}
+.icon a i:hover{
+    color: #ededed;
+}
+.icon{
+    text-align: right;
+    padding-right: 20px;
+}
